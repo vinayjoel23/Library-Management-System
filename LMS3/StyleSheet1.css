@@ -1,0 +1,41 @@
+﻿/*<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+h1
+{
+    font-family: 'Montserrat', Sans-Serif;
+    color: White;
+}*/
+
+/*
+The background url is defined in 'body'
+Background size is set to cover to get the background fully covered.
+*/
+
+body {
+    background: url(Images/lbms.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+For setting color and other formats for the button
+*/
+
+.button 
+{
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border: 3px solid #009688;
+    background-color: white;
+    margin-left: 0px;
+}
+
+/*
+For changing the color of the button during the hover.
+*/
+
+.button:hover 
+{
+    background-color: #009688;
+    color: white;
+}
+
